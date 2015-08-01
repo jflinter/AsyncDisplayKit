@@ -1,4 +1,4 @@
-explicit framework module AsyncDisplayKit {
+framework module AsyncDisplayKit.Private {
     header "_ASAsyncTransaction.h"
     header "_ASAsyncTransactionContainer+Private.h"
     header "_ASAsyncTransactionGroup.h"
