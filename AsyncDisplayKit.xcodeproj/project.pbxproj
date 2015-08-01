@@ -32,7 +32,7 @@
 		045EB1011B6C632F00747A59 /* ASStackLayoutSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF6ED161B17843500DA7C62 /* ASStackLayoutSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		045EB1021B6C633200747A59 /* ASStackLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACF6ED171B17843500DA7C62 /* ASStackLayoutSpec.mm */; };
 		045EB1031B6C685800747A59 /* ASRelativeSize.mm in Sources */ = {isa = PBXBuildFile; fileRef = AC47D9441B3BB41900AAEE9D /* ASRelativeSize.mm */; };
-		045EB1041B6C686600747A59 /* ASRelativeSize.h in Headers */ = {isa = PBXBuildFile; fileRef = AC47D9431B3BB41900AAEE9D /* ASRelativeSize.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		045EB1041B6C686600747A59 /* ASRelativeSize.h in Headers */ = {isa = PBXBuildFile; fileRef = AC47D9431B3BB41900AAEE9D /* ASRelativeSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		045EB1051B6C687E00747A59 /* ASStackUnpositionedLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACF6ED4A1B17847A00DA7C62 /* ASStackUnpositionedLayout.mm */; };
 		045EB1061B6C688400747A59 /* ASStackUnpositionedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF6ED491B17847A00DA7C62 /* ASStackUnpositionedLayout.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		045EB1071B6C689100747A59 /* ASStackPositionedLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACF6ED481B17847A00DA7C62 /* ASStackPositionedLayout.mm */; };
@@ -1188,6 +1188,7 @@
 				045EB0EE1B6C618700747A59 /* ASDimension.h in Headers */,
 				045EB0F51B6C62B600747A59 /* ASLayoutable.h in Headers */,
 				B350620D1B010EFD0018CF92 /* ASTextNode.h in Headers */,
+				045EB1041B6C686600747A59 /* ASRelativeSize.h in Headers */,
 				B35062151B010EFD0018CF92 /* ASBatchContext.h in Headers */,
 				B350621B1B010EFD0018CF92 /* ASFlowLayoutController.h in Headers */,
 				430E7C901B4C23F100697A4C /* ASIndexPath.h in Headers */,
@@ -1199,7 +1200,6 @@
 				B350625B1B010F070018CF92 /* ASEqualityHelpers.h in Headers */,
 				B350623E1B010EFD0018CF92 /* _ASAsyncTransactionContainer+Private.h in Headers */,
 				B35062591B010F070018CF92 /* ASBaseDefines.h in Headers */,
-				045EB1041B6C686600747A59 /* ASRelativeSize.h in Headers */,
 				045EB1061B6C688400747A59 /* ASStackUnpositionedLayout.h in Headers */,
 				045EB1081B6C689600747A59 /* ASStackPositionedLayout.h in Headers */,
 				B35062191B010EFD0018CF92 /* ASDealloc2MainObject.h in Headers */,
