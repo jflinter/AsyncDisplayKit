@@ -58,6 +58,17 @@ if [ "$MODE" = "life-without-cocoapods" ]; then
         build
     trap - EXIT
     exit 0
+
+    echo "Verifying that AsyncDisplayKit functions as a cocoa touch framework."
+
+    xctool \
+        -project AsyncDisplayKit.xcodeproj \
+        -target AsyncDisplayKit \
+        -sdk "$SDK" \
+        -destination "$PLATFORM" \
+        build
+    trap - EXIT
+    exit 0
 fi
 
 echo "Unrecognised mode '$MODE'."
