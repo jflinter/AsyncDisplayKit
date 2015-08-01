@@ -38,7 +38,6 @@
 		045EB1071B6C689100747A59 /* ASStackPositionedLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACF6ED481B17847A00DA7C62 /* ASStackPositionedLayout.mm */; };
 		045EB1081B6C689600747A59 /* ASStackPositionedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF6ED471B17847A00DA7C62 /* ASStackPositionedLayout.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		045EB10A1B6C692C00747A59 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 045EB1091B6C692C00747A59 /* module.modulemap */; };
-		045EB10E1B6C79D400747A59 /* module.private.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 045EB10D1B6C79D400747A59 /* module.private.modulemap */; };
 		0515EA211A15769900BA8B9A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051943141A1575670030A7D0 /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0515EA221A1576A100BA8B9A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051943121A1575630030A7D0 /* AssetsLibrary.framework */; };
 		0516FA3C1A15563400B4EBED /* ASAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0516FA3A1A15563400B4EBED /* ASAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -408,7 +407,6 @@
 
 /* Begin PBXFileReference section */
 		045EB1091B6C692C00747A59 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "AsyncDisplayKit-iOS/module.modulemap"; sourceTree = SOURCE_ROOT; };
-		045EB10D1B6C79D400747A59 /* module.private.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.private.modulemap; path = "AsyncDisplayKit-iOS/module.private.modulemap"; sourceTree = SOURCE_ROOT; };
 		0516FA3A1A15563400B4EBED /* ASAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAvailability.h; sourceTree = "<group>"; };
 		0516FA3B1A15563400B4EBED /* ASLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLog.h; sourceTree = "<group>"; };
 		0516FA3E1A1563D200B4EBED /* ASMultiplexImageNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMultiplexImageNode.h; sourceTree = "<group>"; };
@@ -973,7 +971,6 @@
 			isa = PBXGroup;
 			children = (
 				045EB1091B6C692C00747A59 /* module.modulemap */,
-				045EB10D1B6C79D400747A59 /* module.private.modulemap */,
 				B35061DC1B010EDF0018CF92 /* Supporting Files */,
 			);
 			name = "AsyncDisplayKit-iOS";
@@ -1542,7 +1539,6 @@
 				045EB0F91B6C62FE00747A59 /* ASCenterLayoutSpec.mm in Sources */,
 				AC47D9421B3B891B00AAEE9D /* ASCellNode.m in Sources */,
 				509E68661B3AEDD7009B9150 /* CGRect+ASConvenience.m in Sources */,
-				045EB10E1B6C79D400747A59 /* module.private.modulemap in Sources */,
 				B35062561B010EFD0018CF92 /* ASSentinel.m in Sources */,
 				B350624A1B010EFD0018CF92 /* _ASCoreAnimationExtras.mm in Sources */,
 				045EB0F71B6C62E000747A59 /* ASBackgroundLayoutSpec.mm in Sources */,
@@ -1812,7 +1808,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "AsyncDisplayKit-iOS/module.modulemap";
-				MODULEMAP_PRIVATE_FILE = "AsyncDisplayKit-iOS/module.private.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = AsyncDisplayKit;
 				SKIP_INSTALL = YES;
@@ -1841,7 +1836,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "AsyncDisplayKit-iOS/module.modulemap";
-				MODULEMAP_PRIVATE_FILE = "AsyncDisplayKit-iOS/module.private.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = AsyncDisplayKit;
 				SKIP_INSTALL = YES;
